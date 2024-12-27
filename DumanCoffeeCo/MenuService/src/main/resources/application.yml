@@ -1,0 +1,21 @@
+server:
+  port: 1416
+
+spring:
+  web:
+    resources:
+      static-locations: file:/Users/yagmurkiraz/Desktop/DumanCoffeeCo/DumanCoffeeCo/uploads/
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: dumanUser
+      password: dumanUser*
+      database: DumanDB
+
+

@@ -1,0 +1,16 @@
+server:
+  port: 7075
+
+spring:
+  mail:
+    username: dumankahvesi@gmail.com
+    password: xxqq oijz isbx pmpv
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+

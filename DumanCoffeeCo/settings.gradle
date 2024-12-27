@@ -1,0 +1,6 @@
+rootProject.name = 'DumanCoffeeCo'
+include 'UserServiceApp'
+include 'AuthServiceApp'
+include 'MailServiceApp'
+include 'MenuService'
+
